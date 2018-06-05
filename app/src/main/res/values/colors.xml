@@ -3,9 +3,9 @@
 <color name="colorPrimary">#ef5350</color>
 <color name="colorPrimaryDark">#b71c1c</color>
 <color name="colorPrimaryLight">#FFCCBC</color>
-<color name="colorTextIcons">#eceff1</color>
+<color name="colorTextIcons">#0d47a1</color>
 <color name="colorAccent">#ef5350</color>
 <color name="colorPrimaryText">#ff6e40</color>
 <color name="colorSecondaryText">#ff6e40</color>
-<color name="colorDivider">#B6B6B6</color>
+<color name="colorDivider">#f7f5f5</color>
 </resources>

@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/imageView"
-        android:src="@drawable/chipsfish"
+        android:src="@drawable/homepage2"
         android:scaleType="centerCrop" />
 
     <TextView
@@ -24,7 +24,7 @@
         android:layout_marginTop="35dp"
         android:text="MyRestaurants"
         android:textColor="@color/colorTextIcons"
-        android:textSize="60sp"
+        android:textSize="50sp"
         android:textStyle="bold" />
 
 
@@ -49,6 +49,7 @@
         android:background="@color/colorAccent"
         android:contentDescription="activity_main"
         android:text="Find Restaurants"
+        android:textColor="@android:color/background_light"
         android:visibility="visible"
         tools:clickable="true"
         tools:cursorVisible="true" />
