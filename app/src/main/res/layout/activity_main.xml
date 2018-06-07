@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/imageView"
-        android:src="@drawable/homepage2"
+        android:src="@drawable/homepage"
         android:scaleType="centerCrop" />
 
     <TextView
@@ -24,7 +24,7 @@
         android:layout_marginTop="35dp"
         android:text="MyRestaurants"
         android:textColor="@color/colorTextIcons"
-        android:textSize="50sp"
+        android:textSize="60sp"
         android:textStyle="bold" />
 
 

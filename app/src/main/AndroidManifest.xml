@@ -18,7 +18,10 @@
         </activity>
 
         <activity android:name=".RestaurantsActivity">
-
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.meshsami27.myapplication.MainActivity">
+        </meta-data>
         </activity>
 
     </application>
