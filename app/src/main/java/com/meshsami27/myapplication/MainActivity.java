@@ -13,10 +13,13 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 
-public class MainActivity extends AppCompatActivity {
-    @BindView(R.id.findRestaurantsButton) Button mFindRestaurantsButton;
-    @BindView(R.id.locationTextView) EditText mLocationEditText;
-    @BindView(R.id.appNameTextView) TextView mAppNameTextView;
+public class MainActivity extends AppCompatActivity implements View.onClickListener {
+    @BindView(R.id.findRestaurantsButton)
+    Button mFindRestaurantsButton;
+    @BindView(R.id.locationTextView)
+    EditText mLocationEditText;
+    @BindView(R.id.appNameTextView)
+    TextView mAppNameTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,15 +33,18 @@ public class MainActivity extends AppCompatActivity {
 
         mFindRestaurantsButton.setOnClickListener(new View.OnClickListener() {
             @Override
-                public void onClick(View v) {
+            public void onClick(View v) {
+                if (v == mFindRestaurantsButton) {
                     String location = mLocationEditText.getText().toString();
                     Intent intent = new Intent(MainActivity.this, RestaurantsActivity.class);
                     intent.putExtra("location", location);
                     startActivity(intent);
-                }
-            });
+            }
         }
+        });
     }
+}
+
 
 
 
